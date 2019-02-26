@@ -1,6 +1,6 @@
-# ~/.tmuxinator/terraform-module-aws-s3-redirect.yml
-name: terraform-module-aws-s3-redirect
-root: <%= ENV["PROJECTS"] %>/terraform/modules/terraform-module-aws-s3-redirect
+# ~/.tmuxinator/terraform-aws-s3-redirect.yml
+name: terraform-aws-s3-redirect
+root: <%= ENV["PROJECTS"] %>/terraform/modules/terraform-aws-s3-redirect
 # Optional tmux socket
 # socket_name: foo
 
@@ -25,7 +25,7 @@ on_project_exit: make docker.down
 on_project_stop: make docker.down
 
 # Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
-pre_window: pyenv activate terraform-module-aws-s3-redirect
+pre_window: pyenv activate terraform-aws-s3-redirect
 
 # Pass command line options to tmux. Useful for specifying a different tmux.conf.
 # tmux_options: -f ~/.tmux.mac.conf
