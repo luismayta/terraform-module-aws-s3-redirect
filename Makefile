@@ -10,7 +10,7 @@ OS := $(shell uname)
 .PHONY: help
 .DEFAULT_GOAL := help
 
-PROJECT=terraform-module-aws-s3-redirect
+PROJECT=terraform-aws-s3-redirect
 
 PYTHON_VERSION=3.6.4
 PYENV_NAME="${PROJECT}"

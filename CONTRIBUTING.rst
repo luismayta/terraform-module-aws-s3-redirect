@@ -35,4 +35,4 @@ Submit bug reports or feature requests
 
 Just use the GitHub issue tracker to submit your bug reports and feature
 requests. If you are submitting a bug report, please follow the `issue
-template <https://github.com/okchaty/terraform-module-aws-s3-redirect/issues/new>`__.
+template <https://github.com/okchaty/terraform-aws-s3-redirect/issues/new>`__.
